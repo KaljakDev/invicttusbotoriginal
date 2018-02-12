@@ -44,4 +44,4 @@ bot.on("message", async message => {
 });
 
 console.log(`Carregando o Codigo: <codigo secreto> ||| InvicttusBot`);
-bot.login(process.env.BOT_TOKEN);
+bot.login(Tokenfile.token);
